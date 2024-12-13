@@ -157,3 +157,51 @@ nav img {
     line-height: 1.6; /* Adjusts line height for readability */
     color: #c9d1d9;
 }
+.imgcollage {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; /* Align items to the start */
+    align-items: center; /* Vertically align text and grid */
+    gap: 50px; /* Space between text and grid */
+    margin-top: 50px;
+}
+
+.written {
+    max-width: 400px; /* Limit text width */
+}
+
+.collage {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns in the grid */
+    gap: 20px; /* Spacing between grid items */
+}
+
+.collage > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.collage > div img {
+    width: 50px; /* Set icon width */
+    height: 50px; /* Set icon height */
+    margin-bottom: 10px; /* Space between icon and text */
+}
+
+h3, h4 {
+    margin: 0;
+    color: #ffffff;
+}
+
+p {
+    color: #b3b3b3;
+    line-height: 1.5;
+}
+
+body {
+    background-color: #1e1e1e; /* Dark background */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
